@@ -6,7 +6,7 @@ function storeInput() {
   if (userInput.value === '') {
     alert('Empty? Nothing to do? :)');
   } else {
-    const newList = document.createElement('ul')
+    // const newList = document.createElement('ul')
     const newItem = document.createElement('li');
     newItem.innerHTML = userInput.value;
     newItem.setAttribute('class', userInput.value);
