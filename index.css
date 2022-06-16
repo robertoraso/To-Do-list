@@ -57,6 +57,10 @@ h1 {
   word-break: break-all;
 }
 
+.things-to-do:empty {
+  display: none;
+}
+
 li {
   color: rgba(8, 8, 8, 0.753);
   font-weight: bold;
